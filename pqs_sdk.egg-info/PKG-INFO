@@ -1,9 +1,11 @@
 Metadata-Version: 2.4
 Name: pqs-sdk
-Version: 0.1.0
+Version: 0.1.1
 Summary: The world's first named AI prompt quality score — Python SDK
 Home-page: https://pqs.onchainintel.net
 Author: OnChainIntel
+Author-email: john@onchainintel.net
+License: MIT
 Project-URL: GitHub, https://github.com/OnChainAIIntel/pqs-python-sdk
 Project-URL: Documentation, https://pqs.onchainintel.net
 Keywords: prompt,quality,score,llm,ai,pqs,x402,langchain,crewai,autogen
@@ -14,11 +16,13 @@ Requires-Python: >=3.8
 Description-Content-Type: text/markdown
 Requires-Dist: requests>=2.28.0
 Dynamic: author
+Dynamic: author-email
 Dynamic: classifier
 Dynamic: description
 Dynamic: description-content-type
 Dynamic: home-page
 Dynamic: keywords
+Dynamic: license
 Dynamic: project-url
 Dynamic: requires-dist
 Dynamic: requires-python
