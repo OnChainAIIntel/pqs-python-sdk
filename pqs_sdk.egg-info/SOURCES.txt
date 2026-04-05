@@ -1,0 +1,9 @@
+README.md
+setup.py
+pqs/__init__.py
+pqs/client.py
+pqs_sdk.egg-info/PKG-INFO
+pqs_sdk.egg-info/SOURCES.txt
+pqs_sdk.egg-info/dependency_links.txt
+pqs_sdk.egg-info/requires.txt
+pqs_sdk.egg-info/top_level.txt
