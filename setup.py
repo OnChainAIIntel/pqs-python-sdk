@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="pqs-sdk",
-    version="0.1.1",
+    version="0.2.0",
     description="The world's first named AI prompt quality score — Python SDK",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
@@ -15,6 +15,9 @@ setup(
     },
     packages=find_packages(),
     install_requires=["requests>=2.28.0"],
+    extras_require={
+        "async": ["httpx>=0.24.0"],
+    },
     python_requires=">=3.8",
     license="MIT",
     keywords=["prompt", "quality", "score", "llm", "ai", "pqs", "x402", "langchain", "crewai", "autogen"],
